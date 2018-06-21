@@ -38,3 +38,9 @@
 *.cache
 FilmLibrary/obj/*
 FilmLibrary/bin/*
+*.cache
+*.cache
+FilmLibrary/obj/Debug/FilmLibrary.csproj.FileListAbsolute.txt
+*.Cache
+FilmLibrary/bin/Debug/FilmLibrary.exe.config
+*.pdb
