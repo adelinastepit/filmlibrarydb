@@ -35,3 +35,6 @@
 .vs/FilmLibrary/v15/Server/sqlite3/storage.ide-wal
 .vs/FilmLibrary/v15/Server/sqlite3/storage.ide-shm
 .vs/FilmLibrary/v15/.suo
+*.cache
+FilmLibrary/obj/*
+FilmLibrary/bin/*
