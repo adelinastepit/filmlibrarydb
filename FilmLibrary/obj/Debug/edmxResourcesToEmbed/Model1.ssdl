@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Model1StoreContainer">
+    <EntitySet Name="Films1" EntityType="Model1.Store.Films1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Actions" EntityType="Model1.Store.Actions" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Comedies" EntityType="Model1.Store.Comedies" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Films1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Rate" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Actions">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Rate" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Comedies">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Rate" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+</Schema>

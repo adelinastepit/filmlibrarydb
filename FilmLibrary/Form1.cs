@@ -12,6 +12,9 @@ namespace FilmLibrary
 {
   public partial class Form1 : Form
   {
+
+        
+    
     public Form1()
     {
       InitializeComponent();
@@ -24,10 +27,31 @@ namespace FilmLibrary
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string value = textBox1.Text;
+
+
+            string host = "imdb.com";
+            int port = 80;
+
+            string result = ConnectImdb.SocketSendReceive(host, port);
+            Console.WriteLine(result);
+
+
+
 
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
